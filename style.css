@@ -705,6 +705,54 @@ body {
     }
 }
 
+@media only screen and (orientation: landscape) and (max-height: 800px) {
+    .logo-container {
+        scale: .8;
+    }
+
+    .about {
+        transform: translateX(-2rem);
+    }
+
+    .works {
+        transform: translateX(4rem);
+    }
+
+    .contact {
+        transform: translateX(-1rem);
+    }
+
+    .introduction {
+        font-size: 1rem;
+        margin-left: 15rem;
+    }
+
+    .navigating-down a {
+        height: 8rem;
+    }
+
+    .navigating-down img {
+        width: 60px;
+    }
+
+    @keyframes navigationDownAnimation {
+        0% {
+            opacity: 1;
+
+        }
+
+        50% {
+            opacity: .3;
+            transform: translateY(4.5rem);
+        }
+
+        100% {
+            opacity: .1;
+            transform: translateY(4.5rem);
+        }
+    }
+}
+
 @media only screen and (orientation: landscape) and (max-height: 700px) {
     .logo-container {
         scale: .6;
@@ -1244,6 +1292,59 @@ body {
     }
 }
 
+@media only screen and (orientation: landscape) and (max-height: 800px) {
+    .container {
+        margin: 10rem 0 25rem;
+        /* cursor: none; */
+    }
+
+    .divider {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+    }
+
+    .home-button button {
+        font-size: 1.1rem;
+        padding: 0.3rem 1.5rem;
+    }
+
+    .about-details {
+        gap: 4rem;
+        margin-top: 5rem;
+    }
+
+    .about-me {
+        max-width: 350px;
+    }
+
+    .about-me h3 {
+        font-size: .9rem;
+        letter-spacing: 1.5px;
+    }
+
+    .about-me p {
+        font-size: .9rem;
+    }
+
+    .skills h4 {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+    }
+
+    .skill {
+        font-size: .8rem;
+    }
+
+    .my-image img {
+        width: 250px;
+    }
+
+    .contact-button button {
+        font-size: 1.1rem;
+        padding: 0.3rem 1.5rem;
+    }
+}
+
 @media only screen and (orientation: landscape) and (max-height: 700px) {
     .container {
         margin: 5rem 0 5rem;
@@ -1591,6 +1692,46 @@ body {
     }
 
     .tool {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 800px) {
+    .project-wrapper {
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        margin: 5rem 0;
+    }
+
+    .project-image-container {
+        margin-top: 0;
+    }
+
+    .project-image-container h3 {
+        font-size: 3rem;
+        top: 1.3rem;
+    }
+
+    .project-details {
+        max-width: 100%;
+        margin: 5rem 10rem 0;
+    }
+
+    .project-details h4 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .project-details p {
+        text-align: justify;
+    }
+
+    .project-buttons {
+        justify-content: center;
+    }
+
+    .project-buttons button {
         font-size: .8rem;
     }
 }
