@@ -198,6 +198,28 @@ body {
     }
 }
 
+@media only screen and (orientation: landscape) and (max-height:820px) {
+    .cursor1 {
+        display: none;
+    }
+
+    .cursor2 {
+        display: none;
+    }
+
+    body {
+        cursor: auto;
+    }
+
+    a {
+        cursor: pointer;
+    }
+
+    button {
+        cursor: pointer;
+    }
+}
+
 /********/
 /* HOME */
 /********/
