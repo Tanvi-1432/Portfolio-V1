@@ -21,7 +21,7 @@ This is my personal portfolio.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [tanvich.com](https://tanvich.com/)
 
 ## My process
 
