@@ -705,6 +705,114 @@ body {
     }
 }
 
+@media only screen and (orientation: landscape) and (max-height: 1200px) {
+    .nav-title {
+        font-size: 9rem;
+    }
+
+    .nav-title-hover {
+        font-size: 7rem;
+    }
+
+    .nav-title::before {
+        bottom: 4rem;
+    }
+
+    .mono-font {
+        font-size: 1.8rem;
+    }
+
+    .about {
+        transform: translateX(-6rem);
+    }
+
+    .works {
+        transform: translateX(14rem);
+    }
+
+    .contact {
+        transform: translateX(-6rem);
+    }
+
+    @keyframes navMonoFontAnimate {
+        0% {
+            opacity: .5;
+            top: 7rem;
+        }
+
+        50% {
+            opacity: 1;
+            top: 3rem;
+        }
+
+        100% {
+            top: -4.5rem;
+        }
+    }
+
+    .introduction {
+        padding: 2rem;
+        font-size: 1.6rem;
+        margin-left: 40rem;
+        letter-spacing: 5px;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 1030px) {
+    .nav-title {
+        font-size: 6rem;
+        letter-spacing: .4rem;
+    }
+
+    .nav-title-hover {
+        font-size: 4.5rem;
+    }
+
+    .nav-title::before {
+        bottom: 2.8rem;
+        height: 8px;
+    }
+
+    .mono-font {
+        font-size: 1.5rem;
+    }
+
+    .about {
+        transform: translateX(-5rem);
+    }
+
+    .works {
+        transform: translateX(10rem);
+    }
+
+    .contact {
+        transform: translateX(-4rem);
+    }
+
+    @keyframes navMonoFontAnimate {
+        0% {
+            opacity: .5;
+            top: 7rem;
+        }
+
+        50% {
+            opacity: 1;
+            top: 3rem;
+        }
+
+        100% {
+            top: -3rem;
+        }
+    }
+
+    .introduction {
+        padding: 2rem;
+        font-size: 1.2rem;
+        margin-left: 30rem;
+        letter-spacing: 5px;
+    }
+}
+
 @media only screen and (orientation: landscape) and (max-height: 800px) {
     .logo-container {
         scale: .8;
@@ -1292,6 +1400,121 @@ body {
     }
 }
 
+@media only screen and (orientation: landscape) and (max-height: 1200px) {
+    .divider {
+        font-size: 1.3rem;
+        letter-spacing: 3px;
+    }
+
+    .home-button button {
+        font-size: 1.6rem;
+    }
+
+    .container-title h2 {
+        font-size: 9rem;
+    }
+
+    .about-red-line {
+        width: 48rem;
+        height: 10px;
+        bottom: 7rem;
+    }
+
+    .smaller-title-font {
+        font-size: 7rem;
+    }
+
+    .about-details {
+        gap: 12rem;
+    }
+
+    .about-me {
+        max-width: 500px;
+    }
+
+    .about-me h3 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    .about-me p {
+        font-size: 1.3rem;
+    }
+
+    .skill {
+        font-size: 1.2rem;
+    }
+
+    .my-image img {
+        width: 500px;
+    }
+
+    .contact-button button {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 1030px) {
+    .divider {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
+
+    .home-button button {
+        font-size: 1.3rem;
+    }
+
+    .container-title h2 {
+        font-size: 6rem;
+        max-width: 600px;
+        letter-spacing: .4rem;
+    }
+
+    .about-red-line {
+        width: 31rem;
+        height: 8px;
+        bottom: 4.5rem;
+    }
+
+    .smaller-title-font {
+        font-size: 4.5rem;
+    }
+
+    .about-details {
+        gap: 6rem;
+    }
+
+    .about-me {
+        max-width: 450px;
+    }
+
+    .about-me h3 {
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+
+    .about-me p {
+        font-size: 1rem;
+    }
+
+    .skills h4 {
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+    }
+
+    .skill {
+        font-size: 1.1rem;
+    }
+
+    .my-image img {
+        width: 400px;
+    }
+
+    .contact-button button {
+        font-size: 1.3rem;
+    }
+}
+
 @media only screen and (orientation: landscape) and (max-height: 700px) {
     .container {
         margin: 5rem 0 5rem;
@@ -1643,6 +1866,89 @@ body {
     }
 }
 
+@media only screen and (orientation: landscape) and (max-height: 1200px) {
+    .works-red-line {
+        bottom: 7rem;
+        width: 53rem;
+    }
+
+    .project-wrapper {
+        gap: 10rem;
+    }
+
+    .project-image img {
+        width: 600px;
+    }
+
+    .project-details {
+        max-width: 500px;
+    }
+
+    .project-details h4 {
+        font-size: 1.8rem;
+    }
+
+    .project-details p {
+        font-size: 1rem;
+    }
+
+    .tools h5 {
+        font-size: 1.1rem;
+    }
+
+    .tool {
+        font-size: 1rem;
+    }
+
+    .project-buttons button {
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 1030px) {
+    .works-red-line {
+        bottom: 4.5rem;
+        width: 34.5rem;
+        height: 8px;
+    }
+
+    .project-wrapper {
+        gap: 8rem;
+        margin: 2rem 0;
+    }
+
+    .project-image-container {
+        margin-top: 2rem;
+    }
+
+    .project-image-container h3 {
+        font-size: 4rem;
+        top: 1.7rem;
+    }
+
+    .project-image img {
+        width: 500px;
+    }
+
+    .project-details {
+        max-width: 450px;
+    }
+
+    .project-details h4 {
+        font-size: 1.8rem;
+    }
+
+    .project-details p {
+        font-size: .95rem;
+    }
+
+    .project-buttons button {
+        font-size: .8rem;
+    }
+}
+
+
+
 @media only screen and (orientation: landscape) and (max-height: 700px) {
     .works-red-line {
         bottom: 2.3rem;
@@ -1897,6 +2203,61 @@ body {
     .shoutout a::before {
         height: 1px;
         bottom: .3rem;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 1200px) {
+    .footer-container {
+        margin: 20rem 0 10rem;
+    }
+
+    .contact-red-line {
+        width: 62.5rem;
+        bottom: 6.8rem;
+    }
+
+    .socials-wrapper h3 {
+        font-size: 3.5rem;
+        margin: 1rem 0;
+    }
+
+    .socials {
+        font-size: 1.8rem;
+    }
+
+    .socials a::before {
+        bottom: 1.1rem;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 1030px) {
+    .contact-red-line {
+        width: 40rem;
+        bottom: 4.5rem;
+        height: 8px;
+        left: 1rem;
+    }
+
+    .socials-wrapper h3 {
+        font-size: 2.5rem;
+    }
+
+    .socials {
+        font-size: 1.5rem;
+    }
+
+    .socials a::before {
+        bottom: .95rem;
+        height: 2.5px;
+    }
+
+    .shoutout {
+        font-size: .9rem;
+    }
+
+    .shoutout a::before {
+        height: 2px;
+        bottom: .45rem;
     }
 }
 
