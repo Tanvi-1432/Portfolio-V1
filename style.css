@@ -154,7 +154,7 @@ body {
     border: 1.5px solid white;
     border-radius: 50%;
     position: fixed;
-    transition: 150ms ease-out;
+    transition: 120ms ease-out;
     pointer-events: none;
     mix-blend-mode: difference;
     z-index: 3;
